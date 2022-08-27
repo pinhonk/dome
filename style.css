@@ -1,0 +1,23 @@
+.container{
+    margin: 0 auto;
+    width: 1000px;
+}
+li.tab-item:first-child{
+    background-color: rgb(181, 50, 50);
+}
+ul{
+    list-style: none;
+}
+li.tab-item{
+    display: inline-block;
+    padding: 20px 40px;
+    margin-left: 10px;
+    background-color: rgb(181, 127, 127);
+}
+.product-list li{
+    display: inline-block;
+    width: 30%;
+}
+#new,#best-sell{
+    display: none;
+}
